@@ -48,7 +48,7 @@ const sessionOptions = {
 
 // root route
 app.get("/", (req, res) => {
-    res.send("hello this is major project");
+    res.send("hello this is major project -- > send the request to  /listings ");
 });
 
 // using session middleware .
